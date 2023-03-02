@@ -1,0 +1,229 @@
+body{
+  font-family: "Montserrat";
+}
+
+h1,h2,h3{
+  font-family: "Montserrat-Bold";
+}
+
+h3{
+  font-weight: bold;
+  font-size:1.5rem;
+}
+
+.container-fluid{
+  padding:3% 5% 5% ;
+
+}
+
+.big-heading{
+  font-style: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#title{
+/*  background-color: #17cfb0; */
+  /*background-color: #71e5eb; */
+  background-color: #327c92;
+  color:#fff;
+}
+
+/* navigation bar*/
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/*download-button*/
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* title-image*/
+/*.title-image {
+  width: 20%;
+  /*-ms-transform: rotate(20deg); */
+  transform: rotate(25deg);
+  position: absolute;
+}
+*/
+
+
+/* features */
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-title{
+  font-weight: bold;
+  font-size:1.5rem;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+p{
+  color:#8f8f8f;
+}
+.icon{
+  color:#288b98;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#327c92 ;
+}
+
+/* testimonial */
+#testimonials{
+
+  text-align: center;
+  background-color: #327c92;
+  color:#fff;
+
+}
+#achievements{
+
+  text-align: center;
+  background-color: #327c92;
+  color:#fff;
+
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* press */
+#press{
+  background-color: #17cfb0;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 15px;
+}
+
+
+.carousel-item{
+  padding:7% 15%;
+}
+
+/*pricing section */
+#pricing{
+padding: 100px;
+text-align:center;
+}
+.pricing-text{
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-name{
+  font-weight: bold;
+  font-size:1.5rem;
+}
+
+
+/*CTA SEction*/
+#cta{
+  background-color: #17cfb0;
+  padding: 7% 15%;
+  text-align: center;
+}
+#cta h3{
+  color:white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*footer*/
+#footer{
+  padding:7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin:20px 10px;
+}
+
+
+@media(max-width:993px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width:60%;
+  }
+}
+
+
+/*Team */
+.teamphotos{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+}
+
+
+.card{
+
+}
+.row{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.col-4{
+  flex-basis: 100%;
+}
+
+.col-4{
+  flex-basis:33.33%;
+  padding:15px;
+  min-width:200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+.col-4 img{
+  width:100%;
+}
+.col-4:hover{
+  transform: translateY(-5px);
+}
+.col-4 p{
+  font-size:14px;
+}
